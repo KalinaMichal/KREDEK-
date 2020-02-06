@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Strona główna";
+}
+
+<div>
+    <h1>KUP SE KOSZULKĘ!!!!!!!!!!!!</h1>
+    <!--lista wypunktowana opcji menu-->
+    <ul>
+        <li>@Html.ActionLink("Informacje o stronie", "About", "Home")</li>
+        <li>@Html.ActionLink("Zarezerwuj swoją koszulkę JUŻ TERAZ", "Register", "Home")</li>
+
+        <li>@Html.ActionLink("Zobacz listę szczęśliwych nabywców koszulek", "ViewUsers", "Home")</li>
+        <li>@Html.ActionLink("Zrezygnuj z zamowienia", "Quit", "Home")</li>
+        <li>@Html.ActionLink("Zmien numer", "Update", "Home")</li>
+    </ul>
+    <p>Zadanie domowe lab 7</p>
+</div>

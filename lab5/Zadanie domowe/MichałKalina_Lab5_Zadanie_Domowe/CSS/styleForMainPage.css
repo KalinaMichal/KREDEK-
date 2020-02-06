@@ -1,0 +1,62 @@
+body{
+		
+			background-color:black;
+	}
+		
+		header
+		{
+			width: 100%;
+			height: 100ph;
+			background-color: black;
+			color: white;
+			font-size: 70px;
+			text-align:center;
+		}
+		section
+		{
+			float: center;
+			width: 100%;
+			height: auto;
+			background-color:grey;
+		}
+		
+		section p
+		{
+			text-align: center;
+		}
+		
+		#description
+		{
+		font-size: 30px;
+		text-align: center;
+		color:yellow;
+		}
+		#pageBodyBig
+		{
+		font-size: 60px;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: underline;
+		color:Red;
+		}
+		#pageBody
+		{
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold;
+		color:Black;
+		padding-left: 30px;
+		border: 5px solid white;
+		width:50%;
+					margin-left:auto;
+			margin-right:auto;
+		
+		}
+		
+		#buttonWiki
+		{
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	

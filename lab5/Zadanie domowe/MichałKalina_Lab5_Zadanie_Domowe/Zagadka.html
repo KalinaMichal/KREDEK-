@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<!--dane o stronie -->
+<head>
+	<link href="CSS/styleForZagadka.css" rel="stylesheet" type="text/css"/>
+	<meta charset="utf-8"/>
+	<title>Zgadaka</title>
+
+
+</head>
+
+	<!--styl strony-->
+<body>
+	<!--naglowek strony-->
+	<header>
+		Test your memory!
+	</header>
+	
+	<section>
+		<!--kontener z opisem-->
+		<div id="description">
+			<img src="Images/menu.png" id="buttonMenu" alt="button Menu" onclick="PrzekierujNaMenu()"/>
+			<img src="Images/game.png" id="buttonGame" alt="button Game" onclick="PrzekierujNaGre()"/>
+			<img src="Images/zagadka.png" id="buttonZagadka" alt="button Zagadka" onclick="PrzekierujNaZagadke()"/>
+		</div>
+		<div id="description">
+			Select correct answer
+			
+		</div>
+		<!--kontenet z pierwsza zagadka-->
+		<div id="question">
+			2+4=
+		</div>
+		<div id="description">
+			<img src="Images/2.png" id="buttonMenu" alt="button Menu" onclick="Zle()"/>
+			<img src="Images/6.png" id="buttonZagadka" alt="button Zagadka" onclick="Dobrze()"/>
+		</div>
+		
+		<!--kontenet z druga zagadka-->
+		<div id="question">
+			Wskaż kangura:
+			
+		</div>
+		<div id="description">
+			<img src="Images/kangur.png" id="buttonMenu" alt="button Menu" onclick="Dobrze()"/>
+			<img src="Images/pies.png" id="buttonZagadka" alt="button Zagadka" onclick="Zle()"/>
+		</div>
+		
+		<!--kontenet z trzecia zagadka-->
+		<div id="question">
+			10-8=
+		</div>
+		<div id="description">
+			<img src="Images/2.png" id="buttonMenu" alt="button Menu" onclick="Dobrze()"/>
+			<img src="Images/6.png" id="buttonZagadka" alt="button Zagadka" onclick="Zle()"/>
+		</div>
+		
+		<!--kontenet z czawarta zagadka-->
+		<div id="question">
+			Wskaż psa:
+		</div>
+		<div id="description">
+			<img src="Images/zajac.png" id="buttonMenu" alt="button Menu" onclick="Zle()"/>
+			<img src="Images/pies.png" id="buttonZagadka" alt="button Zagadka" onclick="Dobrze()"/>
+		</div>
+		
+		<!--kontenet z 5 zagadka-->
+		<div id="question">
+			Wskaż króliki:
+		</div>
+		<div id="description">
+			<img src="Images/zajac.png" id="buttonMenu" alt="button Menu" onclick="Dobrze()"/>
+			<img src="Images/odyniec.png" id="buttonZagadka" alt="button Zagadka" onclick="Zle()"/>
+		</div>
+		
+		<!--kontenet z 6 zagadka-->
+		<div id="question">
+			Wskaż krowę:
+		</div>
+		<div id="description">
+			<img src="Images/kangur.png" id="buttonMenu" alt="button Menu" onclick="Zle()"/>
+			<img src="Images/krowa.png" id="buttonZagadka" alt="button Zagadka" onclick="Dobrze()"/>
+		</div>
+		
+		<!--kontenet z 7 zagadka-->
+		<div id="question">
+			Wskaż Stolicę Australii:
+		</div>
+		<div id="description">
+			<img src="Images/sydney.jpg"  onclick="Zle()"/>
+			<img src="Images/canberra.jpg"  onclick="Dobrze()"/>
+			<img src="Images/melbourne.jpg"  onclick="Zle()"/>
+		</div>
+		
+		<!--kontenet z 8 zagadka-->
+		<div id="question">
+			Ile Australia liczy mieszkanców (w mln):
+		</div>
+		<div id="description">
+			<img src="Images/100.png"  onclick="Zle()"/>
+			<img src="Images/50.png"  onclick="Zle()"/>
+			<img src="Images/20.png"  onclick="Dobrze()"/>
+		</div>
+		
+			
+		
+	</section>
+	<!--javascript-->
+	<script src="JS/scriptForZagadka.js"></script>
+	<script src="JS/scriptUniversal.js"></script>
+	<script>StartPuzzle()</script>
+
+	
+
+</body>
+</html>

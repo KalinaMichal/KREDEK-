@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<!--dane o stronie -->
+<head>
+	<link href="CSS/styleForMainPage.css" rel="stylesheet" type="text/css"/>
+	<meta charset="utf-8"/>
+	<title>Strona glowna</title>
+</head>
+
+	<!--styl strony-->
+<body>
+	<!--naglowek strony-->
+	<header>
+		Witaj na stronie głownej
+	</header>
+	
+	<section>
+		<!--kontener z opisem-->
+		<div id="description">
+			<img src="Images/menu.png" id="buttonMenu" alt="button Menu" onclick="PrzekierujNaMenu()" />
+			<img src="Images/game.png" id="buttonGame" alt="button Game" onclick="PrzekierujNaGre()"/>
+			<img src="Images/zagadka.png" id="buttonZagadka" alt="button Zagadka" onclick="PrzekierujNaZagadke()"/>
+		</div>
+		<div id="description">
+			Menu: 
+		</div>
+		
+		<!--animacja-->
+		<div id="buttonWiki">
+		<img src="Images/welcome.gif" id="buttonWelcome" width="150" height="150" alt="welcome button"/>
+		<img src="Images/welcome.gif" id="buttonWelcome2" width="150" height="150" alt="welcome button"/>
+		<img src="Images/welcome.gif" id="buttonWelcome3" width="150" height="150" alt="welcome button"/>
+		<img src="Images/welcome.gif" id="buttonWelcome4" width="150" height="150" alt="welcome button"/>
+		<img src="Images/welcome.gif" id="buttonWelcome5" width="150" height="150" alt="welcome button"/>
+		</div>
+		
+
+		<!--napisy na stronie-->
+		
+		<!--Gra-->
+		<div id="pageBodyBig">
+		GRA
+		</div>
+		<div id="pageBody">
+			W grze możesz przetestować 
+			swoją szybość.
+			Kliknij Start a następnie, 
+			gdy przycisk zmieni kolor 
+			szybko na niego kliknij.
+			Im lepszy czas tym lepiej.
+			Powodzenia.
+		</div>
+		
+		<!--Zagadka-->
+		<div id="pageBodyBig">
+			Zagadka
+		</div>
+		<div id="pageBody">
+			W grze możesz przetestować 
+			swoją pamięć, odpowiadaj na pytania
+			poprzez zaznaczenie prawidłowej odpowiedzi.
+			Za każdym razem otrzymasz komunikat na stronie czy 
+			dobrze odpowiedziałeś\aś. Czas na grę to 30 senkund. 
+			Rozpocznie się on odliczać po naciśnięciu przycisku. 
+		</div>
+		<!--artykuly o zwierzetach-->
+			<div id="pageBodyBig">
+			<p>
+				Artykuly na wikipedii o zwierzetach: 
+			</p>
+			</div>
+		<!--kontener z przyciskiem przejscia kangura na wiki-->
+			<div id="buttonWiki">
+				<img src="Images/kangur.png" id="buttonKangoWiki" alt="Wiki kangur button" onclick="PrzekierujNaKangura()"/>
+
+		<!--kontener z przyciskiem przejscia krowy na wiki-->
+
+				<img src="Images/krowa.png" id="buttonCowWiki" alt="Wiki krowa button" onclick="PrzekierujNaKrowe()"/>
+		
+		
+		<!--kontener z przyciskiem przejscia odynca na wiki-->
+
+				<img src="Images/odyniec.png" id="buttonOdyniecWiki" alt="Wiki odyniec button" onclick="PrzekierujNaOdynca()"/>
+			
+			</div>
+		<!--autor-->
+		<div id="pageBodyBig">
+			<p>
+				Michał Kalina
+			</p>
+			</div>
+	</section>
+	<!--javascript-->
+	<script src="JS/scriptForMainPage.js"></script>
+	<script src="JS/scriptUniversal.js"></script>
+	
+
+</body>
+</html>

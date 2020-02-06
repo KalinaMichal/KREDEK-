@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--dane o stronie -->
+<head>
+	<link href="CSS/styleForGame.css" rel="stylesheet" type="text/css"/>
+	<meta charset="utf-8"/>
+	<title>Reaction timer</title>
+
+
+</head>
+
+	<!--styl strony-->
+<body>
+	<!--naglowek strony-->
+	<header>
+		Test your reaction time!
+	</header>
+	
+	<section>
+		<!--kontener z opisem-->
+		<div id="description">
+			<img src="Images/menu.png" id="buttonMenu" alt="button Menu" onclick="PrzekierujNaMenu()"/>
+			<img src="Images/game.png" id="buttonGame" alt="button Game" onclick="PrzekierujNaGre()"/>
+			<img src="Images/zagadka.png" id="buttonZagadka" alt="button Zagadka" onclick="PrzekierujNaZagadke()"/>
+		</div>
+		<div id="description">
+			Play 5 rounds and find out your reaction time!
+		</div>
+		
+		<!--kontener z przyciskiem-->
+		<div style="width:50%; float: left">
+			<p>
+				<img src="Images/buttonRed.png" id="button" alt="Timing button" onclick="StartIdle()"/>
+			</p>
+		</div>
+		<!--tabela z czasami-->
+		<div style+"width: 50%; float: right">
+			<h2>Your times:</h2>
+			<!--tuttaj tabela-->
+			<table id="timesTable">
+				
+			</table>
+			
+		</div>
+	</section>
+	<!--javascript-->
+	<script src="JS/scriptUniversal.js"></script>
+	<script src="JS/scriptForGra.js"></script>
+	<script>ResetTimes()</script>
+	<script>Updatetable(0)</script>
+	
+
+</body>
+</html>

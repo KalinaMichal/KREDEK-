@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "GetCarByModel";
+}
+
+<html>
+<head>
+    <title>Get Car By Model </title>
+</head>
+<body>
+    <!--wyswietlanie samochodu-->
+    <h2>Model: @Model.Model</h2>
+    <h4>Marka: @Model.Manufacturer</h4>
+    <h4>Cena: @Model.Price</h4>
+    <img src="@Model.Photo" alt="@Model.Model" />
+</body>
+</html>
+

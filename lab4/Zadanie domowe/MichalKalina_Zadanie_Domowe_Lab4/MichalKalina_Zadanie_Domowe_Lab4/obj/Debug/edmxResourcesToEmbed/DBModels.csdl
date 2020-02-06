@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZD4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Table_Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Firstname" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Adress" Type="String" MaxLength="300" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="ZD4Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Table_Customer" EntityType="Self.Table_Customer" />
+  </EntityContainer>
+</Schema>

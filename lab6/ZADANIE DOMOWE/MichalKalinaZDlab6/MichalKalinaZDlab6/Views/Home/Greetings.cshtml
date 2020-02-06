@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Greetings";
+}
+<!--podziekowania za kupno-->
+<html>
+<head>
+    <title>User greetings</title>
+</head>
+<body>
+    <br />
+
+    <div>
+        <h3>Witaj @ViewBag.userName</h3>
+        <h3>Dziękujemy za zarezerwowanie koszulki</h3>
+    </div>
+    <ul>
+    
+        <!--powrot do menu-->
+        <li>@Html.ActionLink("Powrót do menu", "Index", "Home")</li>
+    </ul>
+</body>
+
+
+
+
+
+</html>

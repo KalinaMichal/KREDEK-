@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>ASP.NET MVC - ćwiczenia</h1>
+    <!--lista wypunktowana-->
+    <ul>
+        <li>@Html.ActionLink("Ciekawe linki","InterestingLinks","Home")</li>
+        <li>@Html.ActionLink("Tabela samochodów", "GetAllCars", "Home")</li>
+        <li>@Html.ActionLink("Lista modeli samchodów","GetListOfModels","Home")</li>
+        <li>@Html.ActionLink("Formularz kontaktowy","ContactForm","Home")</li>
+    </ul>
+
+</div>

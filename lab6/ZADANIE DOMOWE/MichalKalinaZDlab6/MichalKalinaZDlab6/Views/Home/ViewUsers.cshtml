@@ -1,0 +1,30 @@
+﻿@model List<MichalKalinaZDlab6.ViewModels.UserVM>
+@{
+    ViewBag.Title = "ViewUsers";
+}
+
+<h2>Wszyscy uczestnicy:</h2>
+<h4>************************************************************************************************</h4>
+
+
+<html>
+<head>
+    <title>Zobacz wszystkich uczestnikow</title>
+
+</head>
+<body>
+    @foreach (var user in Model)
+    {
+        <div>
+            <!--pokazuje nabywcow-->
+            <h2>Imię: @user.UserName</h2>
+            <h2>Nazwisko: @user.SurName</h2>
+            <h4>Wybrany numer koszulki: @user.Number</h4>
+            <h4>************************************************************************************************</h4>
+            <hr />
+        </div>
+    }
+
+
+</body>
+</html>

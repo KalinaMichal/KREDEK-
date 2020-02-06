@@ -1,0 +1,28 @@
+﻿@model List<MichałKalinaLab6.ViewModels.CarVM>
+@{
+    ViewBag.Title = "GetAllCars";
+}
+
+<h2>GetAllCars</h2>
+
+
+<html>
+<head>
+    <title>Get all cars</title>
+
+</head>
+<body>
+    @foreach(var car in Model)
+    {
+    <div>
+        <h2>@car.Model</h2>
+        <h4>Producent: @car.Manufacturer</h4>
+        <h4>Cena: @car.Price</h4>
+        <img src="@car.Photo" alt="@car.Model" />
+        <hr />
+    </div>
+    }
+
+
+</body>
+</html>

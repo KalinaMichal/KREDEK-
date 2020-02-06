@@ -1,0 +1,10 @@
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\bin\Debug\MICHAŁ_KALINA_LAB3.exe.config
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\bin\Debug\MICHAŁ_KALINA_LAB3.exe
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\bin\Debug\MICHAŁ_KALINA_LAB3.pdb
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.csprojAssemblyReference.cache
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.Form1.resources
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.Properties.Resources.resources
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.csproj.GenerateResource.cache
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.csproj.CoreCompileInputs.cache
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.exe
+D:\KREDEK\Kredek\MICHAŁ_KALINA\lab3\Program laboratorium\MICHAŁ_KALINA_LAB3\MICHAŁ_KALINA_LAB3\obj\Debug\MICHAŁ_KALINA_LAB3.pdb
