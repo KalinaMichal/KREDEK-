@@ -1,0 +1,8 @@
+W programie mam Ÿle nazwane niektóre obiekty.
+Wiem ¿e powinno byæ np. labelAtak buttonStart itd.
+W niektórych ma³o znacz¹cych miejscach napisa³em label11.
+Wiem ¿e jest to b³êdem, jednak nie mam doœæ czasu by to poprawiæ 
+mam nadziejê ¿e b³êdy te nie bêd¹ powodem dyskwalifikacji. 
+To samo tyczy siê zadania 1.
+
+Micha³ Kalina
